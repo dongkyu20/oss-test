@@ -3,8 +3,8 @@ on: push
 
 jobs:
   get-num-square:
-    reuns-on: ubuntu-latest
-    nume: REturns the number square
+    runs-on: ubuntu-latest
+    name: REturns the number square
     steps:
       - name: Checkout
         uses: actions/checkout@v2
